@@ -342,3 +342,9 @@
     #define SPINDLE_DIR_PIN                   -1  // No pin available on the socket for the direction pin
   #endif
 #endif
+
+#ifdef NUM_SERVOS
+
+#define SERVO0_PIN 28 //BLTouch orange wire
+
+#endif
